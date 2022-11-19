@@ -14,18 +14,18 @@
         </div>-->
         <div class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#port">Portfólio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/port.html">Portfólio</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="menu-mobile">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#port">Portfólio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/port.html">Portfólio</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="btn-mobile">
@@ -33,12 +33,12 @@
         </div>
     </header>
 
-    <!--==========About Arquivos===========-->
+    <!--=========About Arquivos===========-->
     <section id="about">
         <div class="container">
             <div class="title">
-                <h1>I am a front end developer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic labore totam laudantium dolores maiores nam eos, debitis deserunt nemo.</p>
+                <h1>Sou um desenvolvedor front-end</h1>
+                <p>Sou um desenvolvedor em Front-End e logo abaixo Vocês poderão ver em quais linguagens eu construi esse site</p>
                 <div class="box-title">
                     <p>90%</p>
                     <div class="b1"><div class="b2"></div></div>
@@ -59,3 +59,16 @@
             </div>
         </div>
     </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".btn-mobile").click(function(){
+            $(".menu-mobile").slideToggle("slow")
+        })
+    })
+</script>
+</body>
+</html>

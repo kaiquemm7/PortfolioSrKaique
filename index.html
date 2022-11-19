@@ -14,18 +14,18 @@
         </div>-->
         <div class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="port">Portfólio</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/port.html">Portfólio</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="menu-mobile">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="port">Portfólio</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/port.html">Portfólio</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="btn-mobile">
@@ -42,9 +42,9 @@
                 <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
             <div class="title">
-                <h1>Creative</h1>
-                <h2>developer</h2>
-                <h3>front end developer</h3>
+                <h1>Desenvolvedor</h1>
+                <h2>SrKaique</h2>
+                <h3>Front-End</h3>
             </div>
         </div>
     </main>
@@ -80,4 +80,18 @@
             <input type="radio" name="slider" id="item-1" checked>
             <input type="radio" name="slider" id="item-2">
             <input type="radio" name="slider" id="item-3">
-</body>            
+</body> 
+
+<!--==================Script=========================-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".btn-mobile").click(function(){
+            $(".menu-mobile").slideToggle("slow")
+        })
+    })
+</script>
+</body>
+</html>
